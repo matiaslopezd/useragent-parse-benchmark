@@ -31,6 +31,7 @@ app.get("/express-useragent", function (req, res) {
 });
 
 // NPM: https://www.npmjs.com/package/useragent
+// ReDOS VULNERABILITY: https://github.com/3rd-Eden/useragent/issues/147
 const userAgent = require("useragent");
 app.get("/useragent", function (req, res) {
   const ua = new randomUA().toString();
