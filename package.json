@@ -1,7 +1,7 @@
 {
   "name": "useragent-parser-benchmark",
   "version": "1.0.0",
-  "description": "",
+  "description": "Benchmark between the most common User Agent parser.",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js"
@@ -17,5 +17,10 @@
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": []
+  "keywords": [
+    "benchmark",
+    "user-agent",
+    "parser",
+    "node"
+  ]
 }
