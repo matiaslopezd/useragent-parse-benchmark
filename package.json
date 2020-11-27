@@ -1,0 +1,21 @@
+{
+  "name": "useragent-parser-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "api-benchmark": "1.0.1",
+    "express": "4.17.1",
+    "express-useragent": "1.0.15",
+    "ua-parser-js": "0.7.22",
+    "user-agents": "1.0.559",
+    "useragent": "2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
